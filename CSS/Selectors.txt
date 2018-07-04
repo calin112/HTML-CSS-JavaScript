@@ -1,0 +1,21 @@
+a) p {
+	...	
+}
+
+b) p.first {
+	...
+}
+
+c) li:nth-child(2) {
+	...
+}
+
+d) div p {
+	...
+}
+
+e) p:last-of-type {
+	...
+}
+
+Bonus: El id de los <p> no puede contener espacios.
