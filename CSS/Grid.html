@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			div.grid-container {
+				display: grid;
+				grid-template-columns: auto auto auto;
+				padding: 10px;
+				
+			}
+			div.grid-item {
+				border: 1px solid black;
+				align-items: center;
+				text-align: center;
+			}
+			#student {
+				grid-column-start: 2;
+  				grid-column-end: 4;
+			}
+			#age {
+				grid-column-start: 4;
+  				grid-column-end: 5;
+			}
+			#course {
+				grid-column-start: 5;
+  				grid-column-end: 6;
+			}
+			#computerScience {
+				grid-row-start: 2;
+				grid-row-end: 5;
+			}
+			#randomItem {
+				grid-column-start: 1;
+				grid-column-end: 6;
+			}
+			#b1 {
+				grid-row-start: 6;
+				grid-row-end: 8;
+				grid-column-start: 2;
+				grid-column-end: 3;
+			}
+			#c {
+				grid-column-start: 3;
+				grid-column-end: 5;
+			}
+			#a {
+				grid-row-start: 7;
+				grid-row-end: 9;
+			}
+			#d {
+				grid-column-start: 4;
+				grid-column-end: 6;
+			}
+			#b2 {
+				grid-column-start: 2;
+				grid-column-end: 5;
+				grid-row-start: 8;
+				grid-row-end: 10;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="grid-container">
+  		<div class="grid-item"><b>Degree</b></div>
+  		<div class="grid-item" id="student"><b>Student</b></div>
+	  	<div class="grid-item" id="age"><b>Age</b></div>
+	  	<div class="grid-item" id="course"><b>Course</b></div>
+	  	<div class="grid-item" id="computerScience">Computer Science</div>
+	  	<div class="grid-item">Pepito</div>
+	  	<div class="grid-item">G</div>
+	  	<div class="grid-item">22</div>
+	  	<div class="grid-item">1r</div>
+	  	<div class="grid-item">Jack</div>
+	  	<div class="grid-item">Meier</div>
+	  	<div class="grid-item">94</div>
+	  	<div class="grid-item">????</div>
+	  	<div class="grid-item">John</div>
+	  	<div class="grid-item">Brown</div>
+	  	<div class="grid-item">18</div>
+	  	<div class="grid-item">4rt</div>
+	  	<div class="grid-item" id="randomItem">Random item</div>
+	  	<div class="grid-item">A</div>
+	  	<div class="grid-item" id="b1">B</div>
+	  	<div class="grid-item" id="c">C</div>
+	  	<div class="grid-item">E</div>
+	  	<div class="grid-item" id="a">A</div>
+	  	<div class="grid-item">C</div>
+	  	<div class="grid-item" id="d">D</div>
+	  	<div class="grid-item" id="b2">B</div>
+	  	<div class="grid-item">C</div>
+	  	<div class="grid-item">C</div>
+	  	<div class="grid-item">A</div>
+		</div>
+	</body>
+</html>
