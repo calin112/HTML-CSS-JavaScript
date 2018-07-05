@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			body {
+    			background-color: orange;
+			}
+			@media only screen and (max-width: 350px) {
+    			body {
+        			background-color: lightblue;
+    			}
+			}
+			@media only screen and (min-width: 350px) and (max-width: 450px) {
+    			body {
+        			background-color: lightyellow;
+    			}
+			}
+			@media only print {
+    			body {
+        			background-color: white;
+    			}
+			}
+		</style>
+	</head>
+	<body>
+		<h1>The @media Rule</h1>
+		<p>Resize the browser window. When the width of this document is 350 pixels or less, the background-color is "lightblue", when the width is from 350 to 450px, the background-color is lightyellow, if the media is a printer, the background-color is white, otherwise it is "orange".</p>
+	</body>
+</html>
