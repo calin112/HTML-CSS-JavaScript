@@ -1,0 +1,61 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	background: https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/578908/580/400/m1/fpnw/wm0/1412.m00.i123.n026.s.c10.hipster-pattern.-seamless-background-with-mustaches-arrows-and-crowns-.jpg?1437767144&s=1870a5850ae472c2e7f71450d406f0c7;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: Cache;
+    src: url("./ttf/Cache-Regular.ttf");
+}
+div.principal {
+	diplay: flex;
+	justify-content: center;
+}
+
+div.container {
+	border-radius: 25px;
+	background: #6f370f;
+	width: 75%;
+	height: 400px;
+	margin: auto;
+	text-align: center;
+}
+
+p.hipster {
+	font-family: Cache;
+	font-size: 50px;
+	color: #f5f5dc;
+    text-shadow:
+    /*-1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,*/
+    3px 3px 0 #000;  
+}
+
+div.inside {
+	display: flex;
+	justify-content: flex-start;
+}
+
+img {
+	width: 120px;
+	height: 120px;
+	transform: rotate(-30deg);
+}
+
+p.spaced {
+	/*font-family: "Comic Sans MS";*/
+	font-size:30px;
+	font-weight: bold;
+	color: #f5f5dc;
+	letter-spacing: 4px;
+	width: 100%;
+	text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;  
+}
