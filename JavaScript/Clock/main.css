@@ -1,0 +1,28 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+@font-face{
+ font-family:'digital-clock-font';
+ src: url('digital-7.ttf');
+}
+
+div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 600px;
+	height: 200px;
+	border: 8px solid black;
+	border-radius:40px;
+	background-color: cyan;
+}
+
+p {
+	font-size: 150px;
+	font-family:'digital-clock-font';
+}
