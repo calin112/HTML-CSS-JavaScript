@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Snake</title>
+		<style>
+			body {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			@font-face {
+  				font-family: 'PressStart2P';
+  				src: url("PressStart2P-Regular.ttf") format("opentype");
+			}
+}
+			canvas {
+				border: 1px solid black;
+			}
+			#load-font {
+				font-family: "PressStart2P";
+			}
+		</style>
+	</head>
+	<body onkeydown = "control(event);" onkeypress = "draw(event)">
+		
+		<span id="load-font"> </span>
+		<canvas id="canvas" width="600"	height="600""></canvas>
+		<script src="main.js"></script>
+	</body>
+</html>
