@@ -7,24 +7,31 @@
 				display: flex;
 				justify-content: center;
 				align-items: center;
+				background-repeat: no-repeat;
+    			background-size: cover;
 			}
 			@font-face {
   				font-family: 'PressStart2P';
   				src: url("PressStart2P-Regular.ttf") format("opentype");
 			}
-}
 			canvas {
 				border: 1px solid black;
+				margin-left: 8px;
+				margin-right: 8px;
 			}
 			#load-font {
 				font-family: "PressStart2P";
 			}
+			footer {
+				align-self: flex-end;
+			}
 		</style>
 	</head>
 	<body onkeydown = "control(event);" onkeypress = "draw(event)">
-		
 		<span id="load-font"> </span>
+		<a href="http://www.virilityexpills.net/"><img src="http://www.virilityexpills.net/wp-content/uploads/2015/05/order-virility-ex-store-300x250.gif" alt="Ad 1"></a>
 		<canvas id="canvas" width="600"	height="600""></canvas>
+		<a href="http://www.proenhance-online.com/"><img src="download.jpg" alt="Ad 2"></a>
 		<script src="main.js"></script>
 	</body>
 </html>
