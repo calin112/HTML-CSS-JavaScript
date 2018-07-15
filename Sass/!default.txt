@@ -1,0 +1,43 @@
+Placing !default at the end of a variable declaration will have the followind effect:
+- If the variable has an assignment, it will not be re-assigned.
+- Variables with null value will be considered unassigned and will be assigned with !default.
+
+The !default flag is extremely useful when creating plug-in type code and with mixins. Let's look at this text-color example mixin:
+
+// Variable for $text-color is set to Blue
+
+$text-color: blue;
+
+@mixin text-color {
+// Variable is only set to Red if it has not been set beforehand
+  $text-color: red !default;
+  color: $text-color;
+}
+
+.error {
+  // Include mixin with !default color set
+  @include text-color;
+}
+
+.normal-text {
+  @include text-color;
+}
+Notice the !default flag at the end of the text-color variable inside the mixin? This allows the global variable of blue to override the value of red. Therefore the Sass will compile to the following:
+
+.error {
+  color: blue;
+}
+
+.normal-text {
+  color: blue;
+}
+If we remove the global $text-color variable, Sass will make use of the !default set variable inside the mixin.
+
+.error {
+  color: red;
+}
+
+.normal-text {
+  color: red;
+}
+It is important to remember that if the $text-color variable inside the mixin DID NOT have the !default flag, this variable's value will currently override any previously set value due to the cascade. I say currently because this is a deprecated concept.
