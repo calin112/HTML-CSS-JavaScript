@@ -11,16 +11,14 @@ html {
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove default margin.
  */
 /* line 19, ../sass/partials/_normalize.scss */
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -44,8 +42,7 @@ menu,
 nav,
 section,
 summary {
-  display: block;
-}
+  display: block; }
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
@@ -59,8 +56,7 @@ video {
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
@@ -69,8 +65,7 @@ video {
 /* line 67, ../sass/partials/_normalize.scss */
 audio:not([controls]) {
   display: none;
-  height: 0;
-}
+  height: 0; }
 
 /**
  * Address `[hidden]` styling not present in IE 8/9/10.
@@ -79,8 +74,7 @@ audio:not([controls]) {
 /* line 77, ../sass/partials/_normalize.scss */
 [hidden],
 template {
-  display: none;
-}
+  display: none; }
 
 /* Links
    ========================================================================== */
@@ -89,8 +83,7 @@ template {
  */
 /* line 89, ../sass/partials/_normalize.scss */
 a {
-  background-color: transparent;
-}
+  background-color: transparent; }
 
 /**
  * Improve readability of focused elements when they are also in an
@@ -99,8 +92,7 @@ a {
 /* line 98, ../sass/partials/_normalize.scss */
 a:active,
 a:hover {
-  outline: 0;
-}
+  outline: 0; }
 
 /* Text-level semantics
    ========================================================================== */
@@ -109,8 +101,7 @@ a:hover {
  */
 /* line 110, ../sass/partials/_normalize.scss */
 abbr[title] {
-  border-bottom: 1px dotted;
-}
+  border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
@@ -118,16 +109,14 @@ abbr[title] {
 /* line 118, ../sass/partials/_normalize.scss */
 b,
 strong {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /**
  * Address styling not present in Safari and Chrome.
  */
 /* line 127, ../sass/partials/_normalize.scss */
 dfn {
-  font-style: italic;
-}
+  font-style: italic; }
 
 /**
  * Address variable `h1` font-size and margin within `section` and `article`
@@ -136,8 +125,7 @@ dfn {
 /* line 136, ../sass/partials/_normalize.scss */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-}
+  margin: 0.67em 0; }
 
 /**
  * Address styling not present in IE 8/9.
@@ -145,16 +133,14 @@ h1 {
 /* line 145, ../sass/partials/_normalize.scss */
 mark {
   background: #ff0;
-  color: #000;
-}
+  color: #000; }
 
 /**
  * Address inconsistent and variable font size in all browsers.
  */
 /* line 154, ../sass/partials/_normalize.scss */
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
@@ -165,18 +151,15 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /* line 170, ../sass/partials/_normalize.scss */
 sup {
-  top: -0.5em;
-}
+  top: -0.5em; }
 
 /* line 174, ../sass/partials/_normalize.scss */
 sub {
-  bottom: -0.25em;
-}
+  bottom: -0.25em; }
 
 /* Embedded content
    ========================================================================== */
@@ -185,16 +168,14 @@ sub {
  */
 /* line 185, ../sass/partials/_normalize.scss */
 img {
-  border: 0;
-}
+  border: 0; }
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
 /* line 193, ../sass/partials/_normalize.scss */
 svg:not(:root) {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 /* Grouping content
    ========================================================================== */
@@ -203,8 +184,7 @@ svg:not(:root) {
  */
 /* line 204, ../sass/partials/_normalize.scss */
 figure {
-  margin: 1em 40px;
-}
+  margin: 1em 40px; }
 
 /**
  * Address differences between Firefox and other browsers.
@@ -212,16 +192,14 @@ figure {
 /* line 212, ../sass/partials/_normalize.scss */
 hr {
   box-sizing: content-box;
-  height: 0;
-}
+  height: 0; }
 
 /**
  * Contain overflow in all browsers.
  */
 /* line 221, ../sass/partials/_normalize.scss */
 pre {
-  overflow: auto;
-}
+  overflow: auto; }
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
@@ -232,8 +210,7 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em;
-}
+  font-size: 1em; }
 
 /* Forms
    ========================================================================== */
@@ -258,16 +235,14 @@ textarea {
   font: inherit;
   /* 2 */
   margin: 0;
-  /* 3 */
-}
+  /* 3 */ }
 
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
 /* line 266, ../sass/partials/_normalize.scss */
 button {
-  overflow: visible;
-}
+  overflow: visible; }
 
 /**
  * Address inconsistent `text-transform` inheritance for `button` and `select`.
@@ -278,8 +253,7 @@ button {
 /* line 277, ../sass/partials/_normalize.scss */
 button,
 select {
-  text-transform: none;
-}
+  text-transform: none; }
 
 /**
  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
@@ -296,8 +270,7 @@ input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
-  /* 3 */
-}
+  /* 3 */ }
 
 /**
  * Re-set default cursor for disabled elements.
@@ -305,8 +278,7 @@ input[type="submit"] {
 /* line 302, ../sass/partials/_normalize.scss */
 button[disabled],
 html input[disabled] {
-  cursor: default;
-}
+  cursor: default; }
 
 /**
  * Remove inner padding and border in Firefox 4+.
@@ -315,8 +287,7 @@ html input[disabled] {
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 /**
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
@@ -324,8 +295,7 @@ input::-moz-focus-inner {
  */
 /* line 322, ../sass/partials/_normalize.scss */
 input {
-  line-height: normal;
-}
+  line-height: normal; }
 
 /**
  * It's recommended that you don't attempt to style these elements.
@@ -340,8 +310,7 @@ input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Fix the cursor style for Chrome's increment/decrement buttons. For certain
@@ -351,8 +320,7 @@ input[type="radio"] {
 /* line 346, ../sass/partials/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
+  height: auto; }
 
 /**
  * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
@@ -363,8 +331,7 @@ input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   box-sizing: content-box;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove inner padding and search cancel button in Safari and Chrome on OS X.
@@ -374,8 +341,7 @@ input[type="search"] {
 /* line 367, ../sass/partials/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+  -webkit-appearance: none; }
 
 /**
  * Define consistent border, margin, and padding.
@@ -384,8 +350,7 @@ input[type="search"]::-webkit-search-decoration {
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
+  padding: 0.35em 0.625em 0.75em; }
 
 /**
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
@@ -396,16 +361,14 @@ legend {
   border: 0;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
 /* line 396, ../sass/partials/_normalize.scss */
 textarea {
-  overflow: auto;
-}
+  overflow: auto; }
 
 /**
  * Don't inherit the `font-weight` (applied by a rule above).
@@ -413,8 +376,7 @@ textarea {
  */
 /* line 405, ../sass/partials/_normalize.scss */
 optgroup {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /* Tables
    ========================================================================== */
@@ -424,14 +386,12 @@ optgroup {
 /* line 416, ../sass/partials/_normalize.scss */
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 /* line 421, ../sass/partials/_normalize.scss */
 td,
 th {
-  padding: 0;
-}
+  padding: 0; }
 
 /*
 You can define a default value as well if an attribute
@@ -455,60 +415,50 @@ body {
   font-size: 1em;
   background: #808080;
   line-height: 1em;
-  color: #000000;
-}
+  color: #000000; }
 
 /* line 9, ../sass/partials/_base.scss */
 #wrapper {
   background: #FFFFFF;
   margin: 0 auto;
-  max-width: 800px;
-}
+  max-width: 800px; }
 
 /* line 15, ../sass/partials/_base.scss */
 * {
   -webkit-box-sizing: border-box;
   -mox-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 /* line 21, ../sass/partials/_base.scss */
 article p a {
-  color: #0000FF;
-}
-/* line 23, ../sass/partials/_base.scss */
-article p a:hover, article p a:focus {
-  color: #001A57;
-}
-/* line 26, ../sass/partials/_base.scss */
-article p a:visited {
-  color: #6699CC;
-}
+  color: #0000FF; }
+  /* line 23, ../sass/partials/_base.scss */
+  article p a:hover, article p a:focus {
+    color: #001A57; }
+  /* line 26, ../sass/partials/_base.scss */
+  article p a:visited {
+    color: #6699CC; }
 
 /* line 8, ../sass/styles.scss */
 #banner {
   padding: 10px;
-  padding-bottom: 0px;
-}
+  padding-bottom: 0px; }
 
 /* line 13, ../sass/styles.scss */
 #logo {
   width: 24px;
-  height: auto;
-}
+  height: auto; }
 
 /* line 18, ../sass/styles.scss */
 #logo-text {
   vertical-align: 50%;
   color: #00647D;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /* line 24, ../sass/styles.scss */
 #search-input {
   width: 302px;
-  vertical-align: 50%;
-}
+  vertical-align: 50%; }
 
 /* line 29, ../sass/styles.scss */
 #search-button {
@@ -519,40 +469,34 @@ article p a:visited {
   text-decoration: none;
   border: 1px solid #000;
   border-color: #aaa #444 #444 #aaa;
-  color: #FFF;
-}
+  color: #FFF; }
 
 /* line 40, ../sass/styles.scss */
 #horz-nav {
   background-color: #00647D;
   max-width: 800px;
   height: 35px;
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 
 /* line 47, ../sass/styles.scss */
 #horz-nav p {
-  padding-top: 10px;
-}
+  padding-top: 10px; }
 
 /* line 51, ../sass/styles.scss */
 #horz-nav p a {
   text-decoration: none;
   color: #FFF;
-  padding-left: 10px;
-}
+  padding-left: 10px; }
 
 /* line 57, ../sass/styles.scss */
 #horz-nav p a:hover {
-  color: #FF7F00;
-}
+  color: #FF7F00; }
 
 /* line 61, ../sass/styles.scss */
 #sidebar-left {
   float: left;
   width: 109px;
-  padding-left: 10px;
-}
+  padding-left: 10px; }
 
 /* line 69, ../sass/styles.scss */
 #vert-nav ul {
@@ -560,172 +504,142 @@ article p a:visited {
   margin: 0;
   padding: 0;
   line-height: 1.7em;
-  width: 80px;
-}
+  width: 80px; }
 
 /* line 77, ../sass/styles.scss */
 #vert-nav ul li a {
   text-decoration: none;
-  color: #00647D;
-}
+  color: #00647D; }
 
 /* line 82, ../sass/styles.scss */
 #sidebar-right {
   float: right;
-  width: 213px;
-}
+  width: 213px; }
 
 /* line 87, ../sass/styles.scss */
 .right-sidebar-title {
   color: #00647D;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /* line 92, ../sass/styles.scss */
 #content {
   margin: 0px 213px 0px 109px;
-  padding: 0px;
-}
+  padding: 0px; }
 
 /* line 97, ../sass/styles.scss */
 #content section h2 {
   margin-top: 0px;
   margin-bottom: 10px;
   color: #00647D;
-  line-height: 1em;
-}
+  line-height: 1em; }
 
 /* line 104, ../sass/styles.scss */
 #feature-image {
   height: auto;
   width: 100%;
   max-width: 440px;
-  background: #808080;
-}
+  background: #808080; }
 
 /* line 111, ../sass/styles.scss */
 .right-sidebar-image {
   height: 93px;
   width: 179px;
   background: #808080;
-  margin: 12px 0px;
-}
+  margin: 12px 0px; }
 
 /* line 118, ../sass/styles.scss */
 footer {
   clear: both;
   background: #00647D;
   color: #FFF;
-  padding: 10px;
-}
+  padding: 10px; }
 
 /* line 126, ../sass/styles.scss */
 .left-sidebar-links a {
   display: block;
   color: #00647D;
-  opacity: .7;
-}
-/* line 130, ../sass/styles.scss */
-.left-sidebar-links a:hover {
-  opacity: 1;
-}
+  opacity: .7; }
+  /* line 130, ../sass/styles.scss */
+  .left-sidebar-links a:hover {
+    opacity: 1; }
 
 /* line 136, ../sass/styles.scss */
 .left-sidebar-links {
-  border-bottom: 2px solid #00647D;
-}
-/* line 138, ../sass/styles.scss */
-.left-sidebar-links:last-child {
-  border: none;
-}
+  border-bottom: 2px solid #00647D; }
+  /* line 138, ../sass/styles.scss */
+  .left-sidebar-links:last-child {
+    border: none; }
 
 /* line 143, ../sass/styles.scss */
 #riddle, #riddle-answer {
   padding: 20px;
   margin-top: 10px;
-  background-color: #F0F8FF;
-}
+  background-color: #F0F8FF; }
 
 /* line 149, ../sass/styles.scss */
 #riddle-answer {
-  margin-top: 10px;
-}
+  margin-top: 10px; }
 
 /* line 154, ../sass/styles.scss */
 #riddle-answer {
   border: 2px dotted #001A57;
-  margin: 10px 0px;
-}
+  margin: 10px 0px; }
 
 /* line 163, ../sass/styles.scss */
 .left-sidebar-links {
-  border-color: #e3f9ff;
-}
+  border-color: #e3f9ff; }
 
 /* line 167, ../sass/styles.scss */
 #search-button:hover {
-  background-color: #7d1900;
-}
+  background-color: #7d1900; }
 
 /* line 171, ../sass/styles.scss */
 #search-button:hover {
-  background-color: #58007d;
-}
+  background-color: #58007d; }
 
 /* line 175, ../sass/styles.scss */
 #vert-nav ul li:nth-child(1) {
-  background-color: #997f66;
-}
+  background-color: #997f66; }
 
 /* line 179, ../sass/styles.scss */
 #vert-nav ul li:nth-child(2) {
-  background-color: #ff7f00;
-}
+  background-color: #ff7f00; }
 
 /* line 183, ../sass/styles.scss */
 #vert-nav ul li:nth-child(3) {
-  background-color: rgba(255, 127, 0, 0.5);
-}
+  background-color: rgba(255, 127, 0, 0.5); }
 
 /* line 187, ../sass/styles.scss */
 #vert-nav ul li:nth-child(4) {
-  background-color: #ff7f00;
-}
+  background-color: #ff7f00; }
 
 /* line 191, ../sass/styles.scss */
 #vert-nav ul li:nth-child(5) {
-  background-color: rgba(0, 0, 200, 0.5);
-}
+  background-color: rgba(0, 0, 200, 0.5); }
 
 /* line 195, ../sass/styles.scss */
 #vert-nav ul li:nth-child(6) {
-  background-color: #ffff80;
-}
+  background-color: #ffff80; }
 
 /* line 199, ../sass/styles.scss */
 #vert-nav ul li:nth-child(7) {
-  background-color: gray;
-}
+  background-color: gray; }
 
 /* line 203, ../sass/styles.scss */
 #vert-nav ul li:nth-child(8) {
-  background-color: #008c9b;
-}
+  background-color: #008c9b; }
 
 /* line 207, ../sass/styles.scss */
 #vert-nav ul li:nth-child(9) {
-  background-color: #175dff;
-}
+  background-color: #175dff; }
 
 /* line 211, ../sass/styles.scss */
 #vert-nav ul li:nth-child(10) {
-  background-color: olive;
-}
+  background-color: olive; }
 
 /* line 215, ../sass/styles.scss */
 #vert-nav ul li:nth-child(11) {
-  background-color: #ffff80;
-}
+  background-color: #ffff80; }
 
 /* line 219, ../sass/styles.scss */
 #riddle-answer {
@@ -734,13 +648,11 @@ footer {
   border-radius: 5px;
   -moz-box-shadow: 5px 5px 5px 2px #808080;
   -webkit-box-shadow: 5px 5px 5px 2px #808080;
-  box-shadow: 5px 5px 5px 2px #808080;
-}
+  box-shadow: 5px 5px 5px 2px #808080; }
 
 /* line 224, ../sass/styles.scss */
 #main-title {
-  text-shadow: rgba(0, 0, 255, 0.2) 2px 2px 3px;
-}
+  text-shadow: rgba(0, 0, 255, 0.2) 2px 2px 3px; }
 
 /* line 228, ../sass/styles.scss */
 footer, #horz-nav {
@@ -749,13 +661,11 @@ footer, #horz-nav {
   background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(80%, #00647d), color-stop(100%, #ffffff));
   background-image: -moz-linear-gradient(left, #00647d 80%, #ffffff);
   background-image: -webkit-linear-gradient(left, #00647d 80%, #ffffff);
-  background-image: linear-gradient(to right, #00647d 80%, #ffffff);
-}
+  background-image: linear-gradient(to right, #00647d 80%, #ffffff); }
 
 /* line 240, ../sass/styles.scss */
 img[alt="Programming Frameworks"] {
-  content: url('/images/featured-image.png?1531474633');
-}
+  content: url('../images/featured-image.png?1531474633'); }
 
 /*
 #logo {
@@ -766,83 +676,67 @@ img[alt="Programming Frameworks"] {
 /* line 252, ../sass/styles.scss */
 article p:nth-child(2) {
   -webkit-filter: drop-shadow(#808080 1px 1px 2px);
-  filter: drop-shadow(#808080 1px 1px 2px);
-}
+  filter: drop-shadow(#808080 1px 1px 2px); }
 
 /* line 263, ../sass/styles.scss */
 #riddle, #riddle-answer {
-  background-color: #B2BEB5;
-}
+  background-color: #B2BEB5; }
 
 /* line 271, ../sass/styles.scss */
 #vert-nav ul li:nth-child(1) {
-  background-color: #fffff2;
-}
+  background-color: #fffff2; }
 
 /* line 271, ../sass/styles.scss */
 #vert-nav ul li:nth-child(2) {
-  background-color: #ffffe6;
-}
+  background-color: #ffffe6; }
 
 /* line 271, ../sass/styles.scss */
 #vert-nav ul li:nth-child(3) {
-  background-color: #ffffd9;
-}
+  background-color: #ffffd9; }
 
 /* line 271, ../sass/styles.scss */
 #vert-nav ul li:nth-child(4) {
-  background-color: #ffffcc;
-}
+  background-color: #ffffcc; }
 
 /* line 271, ../sass/styles.scss */
 #vert-nav ul li:nth-child(5) {
-  background-color: #ffffbf;
-}
+  background-color: #ffffbf; }
 
 /* line 271, ../sass/styles.scss */
 #vert-nav ul li:nth-child(6) {
-  background-color: #ffffb3;
-}
+  background-color: #ffffb3; }
 
 /* line 271, ../sass/styles.scss */
 #vert-nav ul li:nth-child(7) {
-  background-color: #ffffa6;
-}
+  background-color: #ffffa6; }
 
 /* line 271, ../sass/styles.scss */
 #vert-nav ul li:nth-child(8) {
-  background-color: #ffff99;
-}
+  background-color: #ffff99; }
 
 /* line 271, ../sass/styles.scss */
 #vert-nav ul li:nth-child(9) {
-  background-color: #ffff8c;
-}
+  background-color: #ffff8c; }
 
 /* line 271, ../sass/styles.scss */
 #vert-nav ul li:nth-child(10) {
-  background-color: #ffff80;
-}
+  background-color: #ffff80; }
 
 /* line 271, ../sass/styles.scss */
 #vert-nav ul li:nth-child(11) {
-  background-color: #ffff73;
-}
+  background-color: #ffff73; }
 
 /* line 271, ../sass/styles.scss */
 #vert-nav ul li:nth-child(12) {
-  background-color: #ffff66;
-}
+  background-color: #ffff66; }
 
 /* line 271, ../sass/styles.scss */
 #vert-nav ul li:nth-child(13) {
-  background-color: #ffff59;
-}
+  background-color: #ffff59; }
 
 /* line 271, ../sass/styles.scss */
 #vert-nav ul li:nth-child(14) {
-  background-color: #ffff4d;
-}
+  background-color: #ffff4d; }
 
 /*
 @import "compass/utilities/sprites";
@@ -863,87 +757,67 @@ article p:nth-child(2) {
 */
 /* line 300, ../sass/styles.scss */
 .baseball-stats table {
-  border: 4px solid #001A57;
-}
-/* line 2, ../../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_scaffolding.scss */
-.baseball-stats table th {
-  text-align: center;
-  font-weight: bold;
-}
-/* line 5, ../../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_scaffolding.scss */
-.baseball-stats table td,
-.baseball-stats table th {
-  padding: 2px;
-}
-/* line 8, ../../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_scaffolding.scss */
-.baseball-stats table td.numeric,
-.baseball-stats table th.numeric {
-  text-align: right;
-}
-/* line 16, ../../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_borders.scss */
-.baseball-stats table th, .baseball-stats table td {
-  border-right: 4px solid #000000;
-  border-bottom: 4px solid #000000;
-  border-left-width: 0;
-  border-top-width: 0;
-}
-/* line 22, ../../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_borders.scss */
-.baseball-stats table th:last-child, .baseball-stats table td:last-child {
-  border-right-width: 0;
-}
-/* line 28, ../../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_borders.scss */
-.baseball-stats table th.last, .baseball-stats table td.last {
-  border-right-width: 0;
-}
-/* line 33, ../../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_borders.scss */
-.baseball-stats table tbody tr:last-child th, .baseball-stats table tbody tr:last-child td, .baseball-stats table tfoot tr:last-child th, .baseball-stats table tfoot tr:last-child td {
-  border-bottom-width: 0;
-}
-/* line 37, ../../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_borders.scss */
-.baseball-stats table tbody tr.last th, .baseball-stats table tbody tr.last td, .baseball-stats table tfoot tr.last th, .baseball-stats table tfoot tr.last td {
-  border-bottom-width: 0;
-}
-/* line 6, ../../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_borders.scss */
-.baseball-stats table thead th {
-  border-bottom: 4px solid #001A57;
-}
-/* line 9, ../../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_borders.scss */
-.baseball-stats table tfoot th, .baseball-stats table tfoot td {
-  border-top: 4px solid #001A57;
-}
-/* line 12, ../../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_borders.scss */
-.baseball-stats table th:first-child {
-  border-right: 4px solid #001A57;
-}
-/* line 2, ../../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
-.baseball-stats table th {
-  background-color: #FFFFFF;
-}
-/* line 4, ../../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
-.baseball-stats table th.even, .baseball-stats table th:nth-child(2n) {
-  background-color: white;
-}
-/* line 8, ../../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
-.baseball-stats table tr.odd td, .baseball-stats table tr:nth-child(2n+1) td {
-  background-color: #B2BEB5;
-}
-/* line 10, ../../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
-.baseball-stats table tr.odd td.even, .baseball-stats table tr.odd td:nth-child(2n), .baseball-stats table tr:nth-child(2n+1) td.even, .baseball-stats table tr:nth-child(2n+1) td:nth-child(2n) {
-  background-color: #b2beb5;
-}
-/* line 14, ../../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
-.baseball-stats table tr.even td {
-  background-color: #F0F8FF;
-}
-/* line 16, ../../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
-.baseball-stats table tr.even td.even, .baseball-stats table tr.even td:nth-child(2n) {
-  background-color: aliceblue;
-}
-/* line 19, ../../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
-.baseball-stats table tfoot th, .baseball-stats table tfoot td {
-  background-color: white;
-}
-/* line 21, ../../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
-.baseball-stats table tfoot th.even, .baseball-stats table tfoot th:nth-child(2n), .baseball-stats table tfoot td.even, .baseball-stats table tfoot td:nth-child(2n) {
-  background-color: white;
-}
+  border: 4px solid #001A57; }
+  /* line 2, ../../../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_scaffolding.scss */
+  .baseball-stats table th {
+    text-align: center;
+    font-weight: bold; }
+  /* line 5, ../../../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_scaffolding.scss */
+  .baseball-stats table td,
+  .baseball-stats table th {
+    padding: 2px; }
+    /* line 8, ../../../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_scaffolding.scss */
+    .baseball-stats table td.numeric,
+    .baseball-stats table th.numeric {
+      text-align: right; }
+  /* line 16, ../../../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_borders.scss */
+  .baseball-stats table th, .baseball-stats table td {
+    border-right: 4px solid #000000;
+    border-bottom: 4px solid #000000;
+    border-left-width: 0;
+    border-top-width: 0; }
+    /* line 22, ../../../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_borders.scss */
+    .baseball-stats table th:last-child, .baseball-stats table td:last-child {
+      border-right-width: 0; }
+    /* line 28, ../../../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_borders.scss */
+    .baseball-stats table th.last, .baseball-stats table td.last {
+      border-right-width: 0; }
+  /* line 33, ../../../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_borders.scss */
+  .baseball-stats table tbody tr:last-child th, .baseball-stats table tbody tr:last-child td, .baseball-stats table tfoot tr:last-child th, .baseball-stats table tfoot tr:last-child td {
+    border-bottom-width: 0; }
+  /* line 37, ../../../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_borders.scss */
+  .baseball-stats table tbody tr.last th, .baseball-stats table tbody tr.last td, .baseball-stats table tfoot tr.last th, .baseball-stats table tfoot tr.last td {
+    border-bottom-width: 0; }
+  /* line 6, ../../../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_borders.scss */
+  .baseball-stats table thead th {
+    border-bottom: 4px solid #001A57; }
+  /* line 9, ../../../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_borders.scss */
+  .baseball-stats table tfoot th, .baseball-stats table tfoot td {
+    border-top: 4px solid #001A57; }
+  /* line 12, ../../../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_borders.scss */
+  .baseball-stats table th:first-child {
+    border-right: 4px solid #001A57; }
+  /* line 2, ../../../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+  .baseball-stats table th {
+    background-color: #FFFFFF; }
+    /* line 4, ../../../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+    .baseball-stats table th.even, .baseball-stats table th:nth-child(2n) {
+      background-color: white; }
+  /* line 8, ../../../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+  .baseball-stats table tr.odd td, .baseball-stats table tr:nth-child(2n+1) td {
+    background-color: #B2BEB5; }
+    /* line 10, ../../../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+    .baseball-stats table tr.odd td.even, .baseball-stats table tr.odd td:nth-child(2n), .baseball-stats table tr:nth-child(2n+1) td.even, .baseball-stats table tr:nth-child(2n+1) td:nth-child(2n) {
+      background-color: #b2beb5; }
+  /* line 14, ../../../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+  .baseball-stats table tr.even td {
+    background-color: #F0F8FF; }
+    /* line 16, ../../../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+    .baseball-stats table tr.even td.even, .baseball-stats table tr.even td:nth-child(2n) {
+      background-color: aliceblue; }
+  /* line 19, ../../../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+  .baseball-stats table tfoot th, .baseball-stats table tfoot td {
+    background-color: white; }
+    /* line 21, ../../../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/tables/_alternating-rows-and-columns.scss */
+    .baseball-stats table tfoot th.even, .baseball-stats table tfoot th:nth-child(2n), .baseball-stats table tfoot td.even, .baseball-stats table tfoot td:nth-child(2n) {
+      background-color: white; }
