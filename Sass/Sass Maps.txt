@@ -1,4 +1,5 @@
-A Sass map is an array matching keys to values. The objective (of course) of this feature is to simplify the base of our code.
+A Sass map is an array matching keys to values. The objective (of course) of
+this feature is to simplify the base of our code.
 To declare a map we have to make a variable with x name and y keys and values:
 
   $map: (
@@ -8,7 +9,8 @@ To declare a map we have to make a variable with x name and y keys and values:
 
 So we declared a map named "map", with 2 keys and their respective values.
 
-To get the information stored in the keys of the map, we have to call the next function:
+To get the information stored in the keys of the map, we have to call the next
+function:
   map-get($map, key);
 
 A practical example would be:
@@ -21,7 +23,8 @@ And it would remain as:
     background-color: value;
   }
 
-To check if a key exists on a map we can use map-has-key() and put it on an @if statement:
+To check if a key exists on a map we can use map-has-key() and put it on an @if
+statement:
 
 .element {
   @if map-has-key($map, key) {
@@ -31,4 +34,7 @@ To check if a key exists on a map we can use map-has-key() and put it on an @if 
   }
 }
 
-They can be pretty useful when we have a lot of values for our project and want to have them organized properly. The thing here is that declaring hundreds of variables gets very confusing and exhaustive to search, so with a map solves this problem.
+They can be pretty useful when we have a lot of values for our project and want
+to have them organized properly. The thing here is that declaring hundreds of
+variables gets very confusing and exhaustive to search, so with a map solves
+this problem.
