@@ -1,5 +1,7 @@
 If condition
-The @if control directive takes a SassScript expression and processes its block of styles if the expression returns anything other than false. Here is an example of @if statements used in a @mixin:
+The @if control directive takes a SassScript expression and processes its block
+of styles if the expression returns anything other than false. Here is an
+example of @if statements used in a @mixin:
 
 @mixin mQ($arg...) {
   @if length($arg) == 1 {
@@ -14,13 +16,16 @@ The @if control directive takes a SassScript expression and processes its block 
   }
 }
 
-The @mixin takes from 1 to infinite arguments, and the @if statement looks for how many arguments there are to do one thing or another.
+The @mixin takes from 1 to infinite arguments, and the @if statement looks for
+how many arguments there are to do one thing or another.
 
 For loop
 The really straightforward syntax is:
   @for $var from <start> through <end>
 
-Let’s Imagine that we have to print styles for eight columns, with an ascending number in the end, and a different width for each column. Every columns has to be written down individually of course, boring and futile.
+Let’s Imagine that we have to print styles for eight columns, with an ascending
+number in the end, and a different width for each column. Every columns has to
+be written down individually of course, boring and futile.
 
 For loop shortens this ordeal significantly:
 
@@ -56,7 +61,9 @@ While loop runs while a condition is met.
   }
 
   Each loop
-  There, the loop takes a list and works with that, lists in Sass are basically arrays. Here we have a list of names, and then we iterate that list as long as it lasts:
+  There, the loop takes a list and works with that, lists in Sass are basically
+  arrays. Here we have a list of names, and then we iterate that list as long
+  as it lasts:
 
   $list: arnold sylvester dolf jean chuck
 
