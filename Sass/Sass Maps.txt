@@ -23,7 +23,7 @@ And it would remain as:
     background-color: value;
   }
 
-To check if a key exists on a map we can use map-has-key() and put it on an @if
+To check if a key exists on a map we can use map-has-key() and put it in an @if
 statement:
 
 .element {
@@ -34,7 +34,7 @@ statement:
   }
 }
 
-They can be pretty useful when we have a lot of values for our project and want
-to have them organized properly. The thing here is that declaring hundreds of
-variables gets very confusing and exhaustive to search, so with a map solves
-this problem.
+They can be pretty useful when we have a lot of different types of values for
+our project and want to have them organized properly. The thing here is that
+declaring hundreds of variables gets very confusing and exhaustive to search,
+so declaring different maps for different types of variables solves this problem.
