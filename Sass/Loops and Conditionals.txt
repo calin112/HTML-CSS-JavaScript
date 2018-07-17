@@ -1,0 +1,72 @@
+If condition
+The @if control directive takes a SassScript expression and processes its block of styles if the expression returns anything other than false. Here is an example of @if statements used in a @mixin:
+
+@mixin mQ($arg...) {
+  @if length($arg) == 1 {
+    @media screen and (max-width: nth($arg, 1)){
+      @content;
+    }
+  }
+  @if length($arg) == 2 {
+    @media screen and (max-width: nth($arg, 1)) and (min-width: nth($arg, 2)){
+      @content;
+    }
+  }
+}
+
+The @mixin takes from 1 to infinite arguments, and the @if statement looks for how many arguments there are to do one thing or another.
+
+For loop
+The really straightforward syntax is:
+  @for $var from <start> through <end>
+
+Let’s Imagine that we have to print styles for eight columns, with an ascending number in the end, and a different width for each column. Every columns has to be written down individually of course, boring and futile.
+
+For loop shortens this ordeal significantly:
+
+  @for $i from 1 through 8 {
+    $width: percentage(1 / $i)
+
+    .col-#{$i} {
+        width: $width;
+      }
+  }
+
+It emits the following CSS:
+  .col-1 {width: 100%;}
+  .col-2 {width: 50%;}
+  .col-3 {width: 33.333%;}
+  .col-4 {width: 25%;}
+  .col-5 {width: 20%;}
+  .col-6 {width: 16.666%;}
+  .col-7 {width: 14.285%;}
+  .col-8 {width: 12.5%;}
+
+While loop
+While loop runs while a condition is met.
+
+  $num: 4;
+
+  @while $num > 0 {
+    .module-#{$num} {
+        content: "#{$num}";
+    }
+
+    $num: $num - 1;
+  }
+
+  Each loop
+  There, the loop takes a list and works with that, lists in Sass are basically arrays. Here we have a list of names, and then we iterate that list as long as it lasts:
+
+  $list: arnold sylvester dolf jean chuck
+
+  @mixin author-imgs {
+    @each $manly-man in $list
+      .photo-#{$manly-man} {
+          background: image-url("avatars/#{$manly-man}.png") no-repeat;
+      }
+  }
+
+  .author-bio {
+      @include author-imgs();
+  }
