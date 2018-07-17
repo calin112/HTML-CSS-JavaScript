@@ -1,1 +1,21 @@
 The content keyword takes the styles from our rules and puts them wherever finds the @content keyword. With an example it's easier to understand:
+
+So, if we declare this mixin: 
+
+@mixin mQ($arg...) {
+  @media screen and (max-width: $arg)){
+    @content;
+  }
+}
+
+And call the mixin in whatever rule like this:
+
+li {
+    float: left;
+    width: (100% / 6);
+    @include mQ(600px) {
+      width: 100%;
+    }
+}
+
+It will put what is inside mQ(600px) on the @content "line", so you can have the same condition with different sentences inside.
