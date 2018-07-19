@@ -1,0 +1,284 @@
+$grayishOrange: #BEB295;
+$strongBlue: #297DB5;
+$strongRed: #D61831;
+$lightGrayishYellow: #EEEDEA;
+$lightGrayishBlue: #C0DAE9;
+$grayishYellow: #D0D1CC;
+$darkGrey: #808080;
+$softOrange: #FED45E;
+$lightGrayishBlue2: #D5E6F0;
+
+@mixin margPad() {
+  margin: 0;
+  padding: 0
+}
+
+@mixin padTopBot($top, $bottom) {
+  padding-top: $top;
+  padding-bottom: $bottom;
+}
+
+@mixin heiWei() {
+  height: 50%;
+  weight: 100%;
+}
+
+@mixin imgBackground($first, $second, $url) {
+  background-image: url($url);
+  background-position: $first $second;
+  background-repeat: no-repeat;
+}
+
+#container {
+  @include heiWei;
+  @include margPad;
+}
+
+td, th {
+  font-size: 10pt;
+}
+
+h1 {
+  color: $strongRed;
+  }
+
+h2 {
+  font-size: 10pt;
+  text-align:left;
+}
+
+#foto-alumne {
+  display:block;
+  img {
+    height: 100px;
+  }
+}
+
+#menu h2 {
+margin:0pt 0pt 0pt 4px;
+padding:0pt 0pt 0em 20px;
+}
+
+/* raco */
+
+#cap_estreta {
+  background-color: $grayishOrange;
+  height: 55px;
+  #logo {
+    height: 55px;
+  }
+  #foto-raco {
+    @include imgBackground(200px, top, "../imatges/salaOrdinadors.jpg");
+    height:55px;
+    width:1300px;
+  }
+}
+
+/* barra:logout */
+#logout {
+  float:right;
+  width:12em;
+  @include margPad;
+  height:100%;
+}
+
+#info-alumne {
+  background-color: $grayishOrange;
+  @include imgBackground(bottom, left, "../imatges/Cantonada_grisa_esquerra.gif");
+  padding: 1em;
+  margin-bottom:1em;
+  padding:0pt 1em 1em;
+}
+
+h4 {
+  color: $strongBlue;
+  margin: 0px;
+}
+
+.dadaAlumne{
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+/* contingut */
+
+#contingut{
+  top: 0;
+  left: 0;
+  }
+
+#contingutsensedreta {
+  position:relative;
+  @include margPad;
+  margin-left:16em;
+  margin-right:1em;
+  @include padTopBot(0, 1em);
+  font-size: 10pt;
+}
+
+#contingutsensedreta, #cosAvis {
+  ul {
+    @include margPad;
+    list-style-image: url("../imatges/Botonet_llistats.gif");
+    padding-left:20px;
+    @include padTopBot(0.2em, 0.2em);
+  }
+}
+
+ #dreta li{
+  list-style-type: none;
+  list-style-position: outside;
+  @include margPad;
+  @include padTopBot(0.2em, 0.2em);
+}
+
+/* calendari */
+.texto_agenda {
+  color: $strongBlue;
+ }
+
+.texto_agenda2 {
+  font-weight: bold;
+  color: $grayishOrange;
+}
+
+/*************
+ * Calendari *
+ *************/
+
+main{
+  @include heiWei;
+  @include margPad;
+}
+
+.calendariMes {
+  td{
+    width:2em;
+    text-align:center;
+    background-color: $lightGrayishYellow;
+    padding:2px;
+    font-size:80%;
+    font-weight:bold;
+    .calendariNomMes {
+      padding-left: 0.5em;
+      width:auto;
+      text-transform: lowercase;
+      background-color:$lightGrayishBlue;
+      color: white;
+      text-align:left;
+      font-size:100%;
+    }
+    .calendariDiaSetmana {
+      color: $strongBlue;
+      background-color: $grayishYellow;
+      font-weight:normal;
+    }
+    .diaAnterior, .diaFutur {
+      color: $darkGrey;
+      background-color: $lightGrayishYellow;
+    }
+    .festa {
+      color: $strongRed;
+      background-color: $lightGrayishYellow;
+    }
+    .event {
+      color: white;
+      background-color: $strongBlue;
+    }
+    .avui {
+      background-color: $softOrange;
+    }
+  }
+}
+
+.event {
+  background-image:none;
+}
+
+//Són 4 caixetes, canviar el 4 per el nombre de caixetes
+#caixetes{
+ width: (100% / 4);
+}
+
+/************
+ * NOTICIES *
+ ************/
+
+article {
+  @include heiWei;
+  @include margPad;
+}
+
+.llista_noticies {padding-top:1em;}
+
+.llista_avisos {padding-top:1em;}
+
+.text_noticia {
+  @include imgBackground(0px, 0px, "../imatges/Bola_vermella.gif");
+  padding-left:20px;
+  color: $darkGrey;
+  font-weight: bold;
+}
+
+.postit {
+  padding-left:20px;
+}
+
+.postit_grup {
+  padding-top: 1em;
+}
+
+.noticia_assig {
+  padding-bottom: 1em;
+    h2 {
+      padding: 0em;
+      padding-left: 20px;
+    }
+}
+
+/* Avis per espai (postit) */
+.marc_postit {
+  @include imgBackground(bottom, right, "../imatges/Cantonada_blanca_fons_gris.gif");
+  padding: 1em;
+  padding-bottom:20px;
+  background-color:white;
+}
+
+#cosAvis {
+  background-color: white;
+  margin:0px;
+  padding:1em;
+}
+
+/***********
+ * HORARIS *
+ ***********/
+
+section{
+  @include heiWei;
+  @include margPad;
+}
+
+.horaris {
+  table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width: 99%;
+  }
+  td {
+    background-color: transparent;
+    border: 1px solid $strongBlue;
+    border-left: 0px;
+    border-top: 0px;
+  }
+  .notaAssig{
+  border: 0px;
+  }
+  th{
+    background-color:$lightGrayishBlue2;
+    font-weight:bold;
+    color:$strongBlue;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
