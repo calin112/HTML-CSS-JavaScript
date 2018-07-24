@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Pokétable</title>
+		<style type="text/css">
+			#searchBar {
+				text-align: center;
+				width: 720px;
+			}
+			table {
+				width: 720px;
+				text-align: center;
+			}
+
+			table, tr, td {
+				border-collapse: collapse;
+				border: 1px solid black;
+			}
+		</style>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<th> Code </th>
+				<th> Normal Sprite </th>
+				<th> Shiny Sprite </th>
+				<th> Name </th>
+				<th> Type </th>
+				<th> HM </th>
+			</tr>
+			<tr>
+				<td id="code"></td>
+				<td id="normalSprite"></td>
+				<td id="shinySprite"></td>
+				<td id="name"></td>
+				<td id="type"></td>
+				<td id="HM"></td>
+			</tr>
+		</table>
+		<div id="searchBar">
+			<button id="previous"><</button>
+			<input id="searchTxt" type="text" name="poketable">
+	  	<button id="searchBtn">Search</button>
+			<button id="next">></button>
+		</div>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
